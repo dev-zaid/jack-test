@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "dotenv": "^11.0.0"
+  },
+  "name": "rabbitmq-first-publish",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "src/publisher.js",
+    "start:c":"src/consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
